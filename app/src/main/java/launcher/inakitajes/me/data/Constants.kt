@@ -1,4 +1,4 @@
-package app.olauncher.data
+package launcher.inakitajes.me.data
 
 object Constants {
 

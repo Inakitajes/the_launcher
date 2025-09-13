@@ -1,4 +1,4 @@
-package app.olauncher.data
+package launcher.inakitajes.me.data
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -6,7 +6,7 @@ import android.view.Gravity
 import androidx.appcompat.app.AppCompatDelegate
 
 class Prefs(context: Context) {
-    private val PREFS_FILENAME = "app.olauncher"
+    private val PREFS_FILENAME = "launcher.inakitajes.me"
 
     private val FIRST_OPEN = "FIRST_OPEN"
     private val FIRST_OPEN_TIME = "FIRST_OPEN_TIME"

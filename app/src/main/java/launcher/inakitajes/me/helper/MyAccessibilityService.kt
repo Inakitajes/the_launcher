@@ -1,4 +1,4 @@
-package app.olauncher.helper
+package launcher.inakitajes.me.helper
 
 import android.accessibilityservice.AccessibilityService
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.os.Build
 import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityNodeInfo
 import androidx.annotation.RequiresApi
-import app.olauncher.R
-import app.olauncher.data.Prefs
+import launcher.inakitajes.me.R
+import launcher.inakitajes.me.data.Prefs
 
 class MyAccessibilityService : AccessibilityService() {
 

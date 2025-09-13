@@ -1,4 +1,4 @@
-package app.olauncher.ui
+package launcher.inakitajes.me.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,20 +13,20 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.Recycler
-import app.olauncher.MainViewModel
-import app.olauncher.R
-import app.olauncher.data.Constants
-import app.olauncher.data.Prefs
-import app.olauncher.databinding.FragmentAppDrawerBinding
-import app.olauncher.helper.hideKeyboard
-import app.olauncher.helper.isEinkDisplay
-import app.olauncher.helper.isSystemApp
-import app.olauncher.helper.openAppInfo
-import app.olauncher.helper.openSearch
-import app.olauncher.helper.openUrl
-import app.olauncher.helper.showKeyboard
-import app.olauncher.helper.showToast
-import app.olauncher.helper.uninstall
+import launcher.inakitajes.me.MainViewModel
+import launcher.inakitajes.me.R
+import launcher.inakitajes.me.data.Constants
+import launcher.inakitajes.me.data.Prefs
+import launcher.inakitajes.me.databinding.FragmentAppDrawerBinding
+import launcher.inakitajes.me.helper.hideKeyboard
+import launcher.inakitajes.me.helper.isEinkDisplay
+import launcher.inakitajes.me.helper.isSystemApp
+import launcher.inakitajes.me.helper.openAppInfo
+import launcher.inakitajes.me.helper.openSearch
+import launcher.inakitajes.me.helper.openUrl
+import launcher.inakitajes.me.helper.showKeyboard
+import launcher.inakitajes.me.helper.showToast
+import launcher.inakitajes.me.helper.uninstall
 
 
 class AppDrawerFragment : Fragment() {

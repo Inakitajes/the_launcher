@@ -1,4 +1,4 @@
-package app.olauncher.ui
+package launcher.inakitajes.me.ui
 
 import android.content.Context
 import android.os.UserHandle
@@ -14,13 +14,13 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import app.olauncher.R
-import app.olauncher.data.AppModel
-import app.olauncher.data.Constants
-import app.olauncher.databinding.AdapterAppDrawerBinding
-import app.olauncher.helper.hideKeyboard
-import app.olauncher.helper.isSystemApp
-import app.olauncher.helper.showKeyboard
+import launcher.inakitajes.me.R
+import launcher.inakitajes.me.data.AppModel
+import launcher.inakitajes.me.data.Constants
+import launcher.inakitajes.me.databinding.AdapterAppDrawerBinding
+import launcher.inakitajes.me.helper.hideKeyboard
+import launcher.inakitajes.me.helper.isSystemApp
+import launcher.inakitajes.me.helper.showKeyboard
 import java.text.Normalizer
 
 class AppDrawerAdapter(

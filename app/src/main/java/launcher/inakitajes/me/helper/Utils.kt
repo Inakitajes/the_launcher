@@ -1,4 +1,4 @@
-package app.olauncher.helper
+package launcher.inakitajes.me.helper
 
 import android.annotation.SuppressLint
 import android.app.SearchManager
@@ -35,11 +35,11 @@ import android.widget.Toast
 import androidx.annotation.AttrRes
 import androidx.annotation.ColorInt
 import androidx.appcompat.app.AppCompatDelegate
-import app.olauncher.BuildConfig
-import app.olauncher.R
-import app.olauncher.data.AppModel
-import app.olauncher.data.Constants
-import app.olauncher.data.Prefs
+import launcher.inakitajes.me.BuildConfig
+import launcher.inakitajes.me.R
+import launcher.inakitajes.me.data.AppModel
+import launcher.inakitajes.me.data.Constants
+import launcher.inakitajes.me.data.Prefs
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.json.JSONObject

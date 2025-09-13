@@ -1,4 +1,4 @@
-package app.olauncher.ui
+package launcher.inakitajes.me.ui
 
 import android.app.admin.DevicePolicyManager
 import android.content.ComponentName
@@ -20,25 +20,25 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import app.olauncher.BuildConfig
-import app.olauncher.MainViewModel
-import app.olauncher.R
-import app.olauncher.data.Constants
-import app.olauncher.data.Prefs
-import app.olauncher.databinding.FragmentSettingsBinding
-import app.olauncher.helper.animateAlpha
-import app.olauncher.helper.appUsagePermissionGranted
-import app.olauncher.helper.getColorFromAttr
-import app.olauncher.helper.isAccessServiceEnabled
-import app.olauncher.helper.isDarkThemeOn
-import app.olauncher.helper.isOlauncherDefault
-import app.olauncher.helper.openAppInfo
-import app.olauncher.helper.openUrl
-import app.olauncher.helper.rateApp
-import app.olauncher.helper.setPlainWallpaper
-import app.olauncher.helper.shareApp
-import app.olauncher.helper.showToast
-import app.olauncher.listener.DeviceAdmin
+import launcher.inakitajes.me.BuildConfig
+import launcher.inakitajes.me.MainViewModel
+import launcher.inakitajes.me.R
+import launcher.inakitajes.me.data.Constants
+import launcher.inakitajes.me.data.Prefs
+import launcher.inakitajes.me.databinding.FragmentSettingsBinding
+import launcher.inakitajes.me.helper.animateAlpha
+import launcher.inakitajes.me.helper.appUsagePermissionGranted
+import launcher.inakitajes.me.helper.getColorFromAttr
+import launcher.inakitajes.me.helper.isAccessServiceEnabled
+import launcher.inakitajes.me.helper.isDarkThemeOn
+import launcher.inakitajes.me.helper.isOlauncherDefault
+import launcher.inakitajes.me.helper.openAppInfo
+import launcher.inakitajes.me.helper.openUrl
+import launcher.inakitajes.me.helper.rateApp
+import launcher.inakitajes.me.helper.setPlainWallpaper
+import launcher.inakitajes.me.helper.shareApp
+import launcher.inakitajes.me.helper.showToast
+import launcher.inakitajes.me.listener.DeviceAdmin
 
 class SettingsFragment : Fragment(), View.OnClickListener, View.OnLongClickListener {
 
